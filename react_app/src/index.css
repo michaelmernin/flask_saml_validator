@@ -1,9 +1,10 @@
 body {
-    background-color: rgb(32, 32, 32);
+    /*background-color: rgb(32, 32, 32);*/
+    background-color: white;
+
 }
 
 h1 {
-  color: white;
   text-align: center;
   margin-top: 50px;
 }
@@ -39,7 +40,8 @@ table {
   margin-top: 50px;
 }
 thead {
-  background-color: #ffc107;
+  /*background-color: #ffc107;*/
+  background-color: white;
   border: none;
 }
 
@@ -58,4 +60,19 @@ thead {
 .small-form {
   width: 400px;
 
+}
+
+.error-title {
+  color: red;
+}
+.card {
+  width: 18rem;
+}
+
+.error-card {
+  border: red 1px solid;
+}
+
+li {
+  list-style-type: none;
 }
